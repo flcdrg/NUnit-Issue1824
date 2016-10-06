@@ -1,0 +1,1 @@
+.\packages\NUnit.ConsoleRunner.3.4.1\tools\nunit3-console.exe .\First.Tests\bin\Debug\First.Tests.dll .\Second.Tests\bin\Debug\Second.Tests.dll
