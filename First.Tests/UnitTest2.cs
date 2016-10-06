@@ -3,11 +3,11 @@ using System.Collections;
 using System.Threading;
 using NUnit.Framework;
 
-namespace Second.Tests
+namespace First.Tests
 {
     [TestFixture]
     [Parallelizable(ParallelScope.Fixtures)]
-    public class UnitTest1
+    public class UnitTest2
     {
         static IEnumerable MyTestCaseSource()
         {
@@ -20,8 +20,7 @@ namespace Second.Tests
         [TestCaseSource(nameof(MyTestCaseSource))]
         public void TestMethod1(string name)
         {
-            Thread.Sleep(10);
-
+            Thread.Sleep(20);
             Assert.IsNotEmpty(name);
         }
     }
