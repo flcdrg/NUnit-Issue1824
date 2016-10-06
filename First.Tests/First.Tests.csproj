@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CFF6CA44-F08B-41AD-9FBC-B1E0D6B62C7C}</ProjectGuid>
+    <ProjectGuid>{9D56C89F-E3B4-4180-946B-B7D008A577B4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NUnitMultipleRemoteException</RootNamespace>
-    <AssemblyName>NUnitMultipleRemoteException</AssemblyName>
+    <RootNamespace>First.Tests</RootNamespace>
+    <AssemblyName>First.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
