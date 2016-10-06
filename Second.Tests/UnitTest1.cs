@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections;
-using System.Threading;
 using NUnit.Framework;
 
 namespace Second.Tests
 {
     [TestFixture]
-    [Parallelizable(ParallelScope.Fixtures)]
     public class UnitTest1
     {
         static IEnumerable MyTestCaseSource()
@@ -22,8 +20,6 @@ namespace Second.Tests
         [TestCaseSource(nameof(MyTestCaseSource))]
         public void TestMethod1(string name)
         {
-            //Thread.Sleep(10);
-
             Assert.IsNotEmpty(name);
         }
     }
